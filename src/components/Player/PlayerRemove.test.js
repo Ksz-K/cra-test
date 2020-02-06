@@ -4,7 +4,9 @@ import { mount } from "enzyme";
 
 it("should call onPlayerRemove with 0 when First delete button is clicked", () => {
   const mockedDeletePlayer = jest.fn();
-  const playerComponent = mount(<Player deletePlayer={mockedDeletePlayer} />);
+  const playerComponent = mount(
+    <Player deletePlayer={mockedDeletePlayer} indeks={0} />
+  );
 
   const deleteButton = playerComponent.find(".Player_delete").first();
 
