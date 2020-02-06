@@ -1,0 +1,14 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: #fff;
+  font-size: 20px;
+  padding: 7px;
+  text-decoration: none;
+}
+
+.PlayersList {
+  background-color: rgb(106, 21, 185);
+}
